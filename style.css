@@ -1,0 +1,98 @@
+/* This styling is using the type selector for the body element to add a background image */
+body {
+    background-color: rgb(27, 134, 240);
+    /* Using the Deparment of Coffee and Social Affairs image by Michael Dales is licensed und CC BY-NC 2.0 */
+    background-image: url(Blue_Bottle\,_Kyoto_Style_Ice_Coffee_\(5909775445\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* This will style the wrapper using the class selector */
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+/* This styling will use the type selector for the header element */
+
+/* This styling will resize the logo */
+.logoImage {
+    height: 118px;
+}
+
+/* This section of css will style the nav */
+nav {
+    background-color: rgba(0, 255, 255, 0.449);
+    height: 40px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+a {
+    color: rgba(251, 255, 0, 0.547);
+    font-family: fantasy;
+}
+
+/* This is using a compound selector */
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* This section of css will style the main */
+main {
+    background-color: rgba(204, 50, 119, 0.52);
+    min-height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+main h1 {
+    font-size: 85px;
+    color: rgba(186, 23, 23, 0.578);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+}
+
+main h2 {
+    color: rgba(5, 244, 69, 0.579);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px rgb(3, 232, 182);
+}
+
+/*p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+main p {
+    font-size: 18px;
+    color: rgba(124, 203, 214, 1);
+    text-shadow: 1px 1px 2px greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.map {
+    padding-top: 65px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+/* This css will style the footer */
+footer {
+    background-color: rgba(255, 20, 145, 0.491);
+    height: 75px;
+
+}
+
+footer p {
+    color: rgba(0, 136, 254, 0.605);
+    text-align: center;
+    padding: 16px;
+
+}
